@@ -1,0 +1,76 @@
+@import url(../../../style.css);
+
+header{
+  width: 100%;
+  height: 60px;
+  background-color: var(--bg-white);
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  position: fixed;
+  z-index: 1;
+}
+.login-header{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .login-header ul {
+    display: flex;
+    align-items: center;
+  }
+  
+  .login-header ul li {
+    margin-right: 20px;
+  }
+  
+  .login-header ul li:first-child{
+   color: var(--bg-light-blue);
+  }
+  
+  .login-header ul li button {
+    background-color: var(--bg-light-blue);
+    color: var(--bg-white);
+    border: none;
+    padding: 18.5px 20px;
+    font-size: 20px;
+  }
+
+header:hover{
+  box-shadow: rgb(9 30 66 / 15%) 0px 0.5rem 1rem 0px;
+  cursor: pointer;
+}
+
+header img {
+  width: 100px;
+  margin:0px 50px 0px 100px;
+}
+
+nav ul {
+  display: flex;
+  text-align: center;
+}
+
+nav{
+  width: 50%;
+}
+
+nav ul li {
+  padding-right: 25px;
+  display: flex;
+  text-align: center;
+  color: var(--bg-light-blue);
+}
+
+nav ul li:hover {
+  color: var(--light-blue);
+  cursor: pointer;
+}
+
+nav ul li i{
+  font-size: 9px;
+  padding: 5px 0px 0px 2px;
+  display: flex;
+  align-items: center;
+}
