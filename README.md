@@ -16,7 +16,7 @@ If you want to run the project on your own computer, follow the steps below:
    ```
 
 ### Starting the Project
-To initiate the project, simply left-click on the "index.html" file and choose "Open Live Server.
+To initiate the project, simply left-click on the "index.html" file and choose "Open with Live Server.
 
 
 ## Notes
